@@ -1,0 +1,25 @@
+:root {
+  /* Color channels are space-separated RGB so Tailwind opacity modifiers
+     (e.g. bg-primary/10) can compose them via rgb(var(...) / <alpha-value>). */
+  --color-primary: 0 95 127; /* #005F7F */
+  --color-primary-hover: 0 107 142; /* #006B8E */
+  --color-secondary: 124 58 237;
+  --color-background: 255 255 255;
+  --color-surface: 248 250 252;
+  --color-border: 226 232 240;
+  --color-muted: 100 116 139;
+  --color-danger: 220 38 38;
+  --color-success: 22 163 74;
+
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+
+  --radius-sm: 0.25rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+}

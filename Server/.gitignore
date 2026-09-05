@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+
+# Standalone streaming-comparison demo page (unrelated to POC5)
+web/
